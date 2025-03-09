@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="what/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="RESUME_BHARATH432....pdf" target="blank">Resume</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Singathla Bharathsimhareddy</span></h1>
+            <p class="title">Web Developer</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Final-year B.Tech student in Electronics and Communication Engineering with hands-on experience in VLSI, web development, and data science.
+                    Proficient in Python, AI & ML, and data analytics, with a proven ability to deliver optimized solutions in academic and professional settings.
+                    Seeking to leverage technical expertise and innovative problem-solving skills in a dynamic role.</p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>AI/ML</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="pic of prot.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <!-- <img src="project1.jpg" alt="Loan Prediction Project"> -->
+                </div>
+                <div class="project-info">
+                    <h3>Loan Eligibility Prediction & Movie Recommendation System</h3>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>ML</span>
+                        <span>Data Science</span>
+                    </div>
+                    <p>
+                        • Cleaned and pre-processed data using Python libraries (Pandas, NumPy).<br>
+                        • Built a predictive model for loan eligibility using AI & ML, achieving 85% accuracy.<br>
+                        • Collaborated with a mentor to refine and optimize the system.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Bharathsingathala/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis" 
+                        target="_blank" rel="noopener" class="btn">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="#" target="_blank" rel="noopener" class="btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <!-- <img src="todo-list.jpg" alt="Todo List Project"> -->
+                </div>
+                <div class="project-info">
+                    <h3>TODO-LIST</h3>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <p>
+                        • Interactive task management application with modern UI<br>
+                        • Features include task creation, deletion, and status tracking<br>
+                        • Responsive design for all device sizes
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Bharathsingathala/todolist" 
+                        target="_blank" rel="noopener" class="btn">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="https://todo-list-bharath.netlify.app"
+                        target="_blank" rel="noopener" class="btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form" onsubmit="sendEmail(event)">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <textarea id="message" placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+                <!-- <div id="success-message" class="hidden">Message sent successfully!</div> -->
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/bharath-singathala-9140a7220/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Bharathsingathala" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bharath Singathala. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="what/script.js"></script>
+</body>
+</html>
